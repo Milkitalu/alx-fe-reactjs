@@ -1,10 +1,15 @@
-import WelcomeMessage from "./components/WelcomeMessage";
-
+import WelcomeMessage from './components/WelcomeMessage.jsx';
+import Header from './Header.jsx';
+import MainContent from './MainContent.jsx';
+import Footer from './Footer.jsx';
 function App() {
   return (
-    <div>
-      <WelcomeMessage/>
-    </div>
+    <>
+      <WelcomeMessage />
+      <Header />
+      <MainContent/>
+      <Footer />
+    </>
   );
 }
 
