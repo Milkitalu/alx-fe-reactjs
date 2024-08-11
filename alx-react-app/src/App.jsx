@@ -1,9 +1,10 @@
-import WelcomeMessage from './WelcomeMessage.jsx'
+import WelcomeMessage from "./WelcomeMessage.jsx"
 
 function App() {
     return (
-        <WelcomeMessage/>
-      );
+        
+          <WelcomeMessage/>
+     );
     }
 
 export default App
