@@ -5,7 +5,7 @@ function WelcomeMessage() {
             <P>I am learning about JSX!</P>
             <p>This is a simple JSX component.</p>
         </div>
-    );
+    )
 }
 
 export default WelcomeMessage;
