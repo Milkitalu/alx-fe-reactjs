@@ -1,9 +1,9 @@
 
 import { Link } from 'react-router-dom';
-import Home from './Home';
-import About from './About';
-import Services from './Services';
-import Contact from './Contact';
+import Home from '../Home';
+import About from '../About';
+import Services from '../Services';
+import Contact from '../Contact';
 function Navbar() {
     return (
         <div>
