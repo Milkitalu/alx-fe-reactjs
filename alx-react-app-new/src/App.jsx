@@ -4,6 +4,7 @@ import Header from '../components/Header.js';
 import MainContent from '../components/MainContent.js';
 import Footer from '../components/Footer.js';
 import UserProfile from '../components/UserProfile.js'
+import Counter from './components/Counter.js';
 function App() {
   return (
     <div>
