@@ -8,7 +8,13 @@ import Navbar from './Navbar';
 
 function App() {
   return(
+    <div>
     <Navbar />
+    <Route exact path="./Home" component={Home} />
+    <Route path="./About" component={About} />
+    <Route path="./Services" component={Services} />
+    <Route path="./Contact" component={Contact} />
+    </div>
   );
 }
 export default App
