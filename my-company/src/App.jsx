@@ -10,10 +10,10 @@ function App() {
   return(
     <div>
     <Navbar />
-    <Route exact path="./Home" component={Home} />
-    <Route path="./About" component={About} />
-    <Route path="./Services" component={Services} />
-    <Route path="./Contact" component={Contact} />
+    <Route exact path="./Home" element={Home} />
+    <Route path="./About" element={About} />
+    <Route path="./Services" element={Services} />
+    <Route path="./Contact" element={Contact} />
     </div>
   );
 }
