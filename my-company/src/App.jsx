@@ -1,19 +1,24 @@
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import Services from './components/Services';
-import Contact from './components/Contact';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar.jsx';
+import Home from './components/Home.jsx';
+import About from './components/About.jsx';
+import Services from './components/Services.jsx';
+import Contact from './components/Contact.jsx';
+
 
 function App() {
   return(
-    <div>
-    <Navbar />
-    <Route exact path="./Home" element={Home} />
-    <Route path="./About" element={About} />
-    <Route path="./Services" element={Services} />
-    <Route path="./Contact" element={Contact} />
+    <div style={{ width:'1500px',height:'700px',backgroundColor:'red', color:'white',fontSize:'2em'}}>
+      <BrowserRouter>
+        <Navbar/>
+        <Routes>
+          <Route path="/Home" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Services" element={<Services />} />
+          <Route path="/Contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
