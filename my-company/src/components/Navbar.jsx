@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar(){
   return (
     <>
-      <nav>
+      <nav style={{backgroundColor:black,justifyContent:'inLine',}}>
         <ul style={{ padding:'10px', listStyle:'none', display:'flex', alignContent:'spaceBetween'}}>
           <li>
             <Link to="/Home">Home</Link>
